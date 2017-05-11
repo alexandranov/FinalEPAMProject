@@ -1,0 +1,24 @@
+<art-gallery>
+<header >
+  <header-text>ART-Gallery </header-text>
+  </header>
+
+<gallery> 
+  <gallery-slider>
+    <slider>
+      <slider-Buttons (click)="prevPicture();"><Button_text><</Button_text></slider-Buttons>
+      <img class="slider-picture" [src]="getCurrentPictureLinkMain()" >
+      <slider-Buttons (click)="nextPicture()"><Button_text>></Button_text></slider-Buttons>
+    </slider>
+  </gallery-slider>`
+  <gallery-dinamicTile>
+    <dinamicTile >  
+
+   <img class="row-1" [src]="getCurrentPictureLinkFirst()" >
+   <img class="row-1" [src]="getCurrentPictureLinkSecond()" >
+   <img class="row-1" [src]="getCurrentPictureLinkThird()" >
+   </dinamicTile>
+  </gallery-dinamicTile>
+  
+ </gallery>
+ </art-gallery>
