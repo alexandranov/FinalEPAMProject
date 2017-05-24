@@ -10,7 +10,7 @@ import { Gallery } from '../gallery';
 export class GalleryComponent implements OnInit {
 
 
-    private _url: string[] = ["image/1.jpg", "image/2.jpg", "image/3.jpg", "image/4.jpg"];
+    private _url: string[] = ["image/1.jpg", "image/2.jpg", "image/3.jpg", "image/4.jpg", "image/5.jpg"];
     private _idmain = 0;
     private _idfirst = 1;
     private _idsecond = 2;
